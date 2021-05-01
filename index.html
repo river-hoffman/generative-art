@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Generative Art</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="assets/rhLogo.png">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-info">
+            <h1>Generative Art</h1>
+            <p>Press Button to Create Generative Art.</p>
+            <button onclick="gArt()">Generate</button>
+        </div>
+        <div class="container-art">
+            <div class="frame">
+                <main>
+                </main>
+            </div>
+        </div>
+        <a href="https://www.riverhoffman.org/"><img src="assets/rhLogo.png"></a>
+    </div>
+    <div id="alert">
+        <div id="alert-content">
+            <h1>Screen Too Small!</h1>
+            <p>Please Rotate Screen or Open in a Larger Viewport.</p>
+        </div>
+    </div>
+</body>
+
+</html>
